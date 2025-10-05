@@ -1,12 +1,14 @@
+Выглядит уже очень хорошо 👍
 
+Только у тебя в `README.md` есть небольшая ошибка в оформлении блоков кода (смесь ` ``` ` и `---`), из-за этого структура может сломаться. Я подправил — вот чистый вариант, можешь скопировать полностью:
 
-```
+```markdown
 # Assignment 2: Algorithmic Analysis and Peer Code Review  
 ### Student B – Max-Heap Implementation  
 
 **Name:** Aslan Muratov  
 **University:** Astana IT University  
-**Group:** SE-2425
+**Group:** SE-2425  
 
 ---
 
@@ -31,9 +33,10 @@ The project follows Maven structure and includes:
 ---
 
 ## 🛠️ Repository Structure  
+
 ```
----
-## assignment2-maxheap/
+
+assignment2-maxheap/
 ├── src/main/java/
 │   ├── algorithms/MaxHeap.java
 │   ├── metrics/PerformanceTracker.java
@@ -46,14 +49,16 @@ The project follows Maven structure and includes:
 ├── README.md
 └── pom.xml
 
+````
+
 ---
 
 ## 📊 Usage  
+
 ### 1. Build the project  
 ```bash
 mvn clean install
-
-```
+````
 
 ### 2. Run tests
 
@@ -73,13 +78,13 @@ Benchmark results will be exported as CSV into `docs/performance-plots/`.
 
 ## 📈 Complexity Analysis
 
-* **Time Complexity**:
+* **Time Complexity**
 
   * Best: Ω(n log n)
   * Average: Θ(n log n)
   * Worst: O(n log n)
 
-* **Space Complexity**:
+* **Space Complexity**
 
   * O(n)
 
@@ -103,7 +108,9 @@ Each partner analyzes the other’s implementation and produces an **analysis re
 * ✅ Performance plots
 * ✅ `docs/analysis-report.pdf`
 
+```
 
+---
 
-
-
+Хочешь, я ещё добавлю маленький пример **вывода программы** (например, insert → extractMax) в Usage, чтобы README выглядел живее?
+```
