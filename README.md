@@ -1,6 +1,6 @@
 
 
-```markdown
+```
 # Assignment 2: Algorithmic Analysis and Peer Code Review  
 ### Student B – Max-Heap Implementation  
 
@@ -32,8 +32,8 @@ The project follows Maven structure and includes:
 
 ## 🛠️ Repository Structure  
 ```
-
-assignment2-maxheap/
+---
+## assignment2-maxheap/
 ├── src/main/java/
 │   ├── algorithms/MaxHeap.java
 │   ├── metrics/PerformanceTracker.java
@@ -46,15 +46,14 @@ assignment2-maxheap/
 ├── README.md
 └── pom.xml
 
-````
-
 ---
 
 ## 📊 Usage  
 ### 1. Build the project  
 ```bash
 mvn clean install
-````
+
+```
 
 ### 2. Run tests
 
@@ -104,7 +103,7 @@ Each partner analyzes the other’s implementation and produces an **analysis re
 * ✅ Performance plots
 * ✅ `docs/analysis-report.pdf`
 
-```
+
 
 
 
