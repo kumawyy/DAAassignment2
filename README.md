@@ -1,4 +1,4 @@
-Тогда вот тебе готовый `README.md` 👇 — можешь просто вставить его в корень репозитория:
+
 
 ```markdown
 # Assignment 2: Algorithmic Analysis and Peer Code Review  
@@ -6,7 +6,7 @@
 
 **Name:** Aslan Muratov  
 **University:** Astana IT University  
-**Group:** [укажи свою группу]  
+**Group:** SE-2425
 
 ---
 
@@ -105,5 +105,6 @@ Each partner analyzes the other’s implementation and produces an **analysis re
 * ✅ `docs/analysis-report.pdf`
 
 ```
+
 
 
