@@ -1,5 +1,4 @@
-```markdown
-# Assignment 2: Algorithmic Analysis and Peer Code Review  
+# Assignment 2: Algorithmic Analyis and Peer Code Review  
 ### Student B – Max-Heap Implementation  
 
 **Name:** Aslan Muratov  
@@ -104,10 +103,6 @@ Each partner analyzes the other’s implementation and produces an **analysis re
 * ✅ Performance plots
 * ✅ `docs/analysis-report.pdf`
 
-```
 
----
 
-Хочешь, я ещё добавлю маленький пример **вывода программы** (например, insert → extractMax) в Usage, чтобы README выглядел живее?
-```
 
